@@ -1,0 +1,12 @@
+body {
+	background-color: rgba(176, 80, 255, 0.459);
+	text-align: center;
+	font-family: sans-serif;
+}
+a {
+    color: black;
+	background-color: rgb(192, 240, 232);
+	padding: 10px;
+	margin: 5px;
+	display: block;
+}

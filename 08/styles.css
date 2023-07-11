@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+    background-color: #d8e1e2;
+    text-align: center;
+    font-size: 1.2rem;
+}
+label{
+    display: block;
+    margin: 15px auto;
+    width: 55%;
+}
+input{
+    padding: 5px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+}

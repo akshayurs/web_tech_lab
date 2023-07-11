@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Feedback Form</title>
+</head>
+<body>
+    <header>
+        Student Feedback Form
+    </header>
+    <main>
+        <form action="/" method="POST">
+            <h3>Student Details</h3>
+            <label>Name</label>
+            <input  />
+            <br />
+            <label>Email Address</label>
+            <input type="email" />
+            <br />
+            <label>USN</label>
+            <input  />
+            <hr />
+            <h3>Feedback Questions</h3>
+            <section>
+                <h4>Was the teacher punctual to the class?</h4>
+                <input type="radio" id="op-1" name="ques-1" />
+                <label for="op-1">Yes</label>
+                <input type="radio" id="op-2" name="ques-1" />
+                <label for="op-2">No</label>
+                <h4>What was your level of satisfaction with the teaching?</h4>
+                <select name="ques-3">
+                    <option>Extemely Satisfying</option>
+                    <option>Satisfying</option>
+                    <option>Agreeable</option>
+                    <option>Unsatisfying</option>
+                    <option>Extremely Unsatisfying</option>
+                </select>
+                <h4>Was the teacher: (Select the applicable checkboxes)</h4>
+                <input type="checkbox" id="ck-1" />
+                <label for="ck-1">Helpful</label>
+                <br />
+                <input type="checkbox" id="ck-2" />
+                <label for="ck-2">Clear and Understandable</label>
+                <br />
+                <input type="checkbox" id="ck-3" />
+                <label for="ck-3">Knowledgeable</label>
+                <br />
+                <input type="checkbox" id="ck-4" />
+                <label for="ck-4">Interactive</label>
+                <br />
+                <h4>Write your suggestions.</h4>
+                <textarea name="suggestions" cols="50" rows="4"></textarea>
+                <h4>Do you want to submit the form?</h4>
+                <input type="checkbox" name="agree" required />
+                <label for="agree">Yes</label>
+            </section>
+            <div >
+                <button>Submit</button>
+                <button type="reset" >Clear</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

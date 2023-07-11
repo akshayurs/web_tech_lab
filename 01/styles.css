@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+img{
+    height: 100px;
+    max-width: 200px;
+}
+table th {
+    width: 1%;
+    padding: 7px;
+    text-align: center;
+}

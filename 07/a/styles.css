@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.container{
+    width: 300px;
+    margin: 10px auto;
+    background-color:darkgrey;
+    border: 1px solid black;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+input{
+    width: 100%;
+    height: 75px;
+    font-size: 30px;
+    text-align: right;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+button{
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    background-color: #eee;
+    font-size: 30px;
+}

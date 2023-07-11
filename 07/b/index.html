@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Details Form</h1>
+    <form >
+        <label>Name</label>
+        <input  name="Name" />
+        <br />
+        <label>Email</label>
+        <input type="email" name="Email" />
+        <br />
+        <label>Mobile No.</label>
+        <input  name="Mobile" />
+        <br />
+        <label>Gender</label>
+        <div class="flex">
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label>
+        </div>
+        <br />
+        <label>Favourite Color</label>
+        <select name="color">
+            <option value="Red">Red</option>
+            <option value="Blue">blue</option>
+            <option value="Green">Green</option>
+        </select>
+        <button>Submit</button>
+    </form>
+    <h3>Entered Details</h3>
+    <textarea cols="80" rows="15"></textarea>
+    <script src="index.js"></script>
+</body>
+</html>

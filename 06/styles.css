@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    background: #34495e;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 50px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+#about{
+    background: url("./student.jpg") center;
+    height: 400px;
+    padding: 50px 30px;
+}
+#about h1{
+    color: #00575f;
+    font-size: 30px;
+    margin-left: 100px;
+}
+#about p{
+    width: 50%;
+    line-height: 25px;
+}
+#about button{
+    margin-left: 200px;
+    background-color: #e35f13;
+    border: none;
+    padding: 15px;
+}
+footer{
+    background: #002851;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#links{
+    background: #00575f;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#links a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}

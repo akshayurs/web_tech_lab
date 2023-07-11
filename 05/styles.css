@@ -1,0 +1,59 @@
+  /* i. Demonstrate different font styles */
+  h1 {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+  }
+
+  p {
+    font-family: 'Times New Roman', serif;
+  }
+
+  a{
+    font-size: 25px;
+  }
+
+  a:link {
+    color: blue;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: orange;
+  }
+
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: green;
+  }
+
+  .hidden-element {
+    visibility: hidden;
+  }
+
+  .bg{
+    min-height: 60vh;
+  }
+  .norepeat{
+    background: url('./sjce.jpg') red no-repeat;
+  }
+  .repeat{
+    background: url('./sjce.jpg') blue;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+  .italic{
+    font-style: italic;
+  }
+  .oblique{
+    font-style: oblique;
+  }
+  section{
+    border: 1px solid black;
+    padding: 10px;
+  }
